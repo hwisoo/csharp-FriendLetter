@@ -18,7 +18,7 @@ namespace FriendLetter
 
     public IConfigurationRoot Configuration { get; }
 
-    public void ConfigurationServices(IServiceColletion services)
+    public void ConfigureServices(IServiceCollection services)
     {
       services.AddMvc();
     }
